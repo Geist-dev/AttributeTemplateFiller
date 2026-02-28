@@ -1,0 +1,27 @@
+[general]
+name=Attribute Templates & Autofill
+qgisMinimumVersion=3.16
+description=Create reusable attribute templates and automatically fill fields when digitizing vector features.
+version=1.0.0
+author=
+email=aeromax.live@mail.ru
+about=Attribute Templates & Autofill allows you to create reusable attribute presets for vector layers and automatically apply them when creating new features.
+ The plugin significantly speeds up digitizing workflows and ensures consistent attribute data entry.
+ 
+ Main features:
+ • Create multiple attribute templates per layer
+ • Automatically apply active template when adding new features
+ • Safe handling of primary key fields (prevents UNIQUE constraint errors)
+ • Apply templates to selected features
+ • Import and export templates (JSON format)
+ • Multilingual interface
+ 
+ This plugin is ideal for cadastral mapping, utilities, environmental surveys, infrastructure projects, and large-scale GIS data entry tasks.
+ 
+ Compatible with QGIS 3.16+
+
+category=Digitizing
+icon=icon.png
+repository=https://github.com/Geist-dev/AttributeTemplateFiller
+
+tags=attribute templates,attributes,autofill,digitizing,editing,forms,presets,field defaults,data entry,productivity,gis,шаблоны,атрибуты,автозаполнение,оцифровка
